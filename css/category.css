@@ -1,0 +1,44 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import './top-bar.css';
+@import './swiper.css';
+@import './navbar.css';
+@import './default.css';
+@import './footer.css';
+@import './course-box.css';
+
+/* Start Courses TopBar Styles */
+
+.courses {
+    margin: 4rem 0;
+}
+
+.courses-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem;
+    box-shadow: 0 0 13px 1px rgb(70, 72, 77, .08);
+}
+
+.courses-topbar__form {
+    position: relative;
+    width: 30rem;
+}
+
+.courses-topbar__input {
+    font-size: 1.5rem;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    padding: .8rem 1.5rem .8rem 4.2rem;
+    border-radius: .5rem;
+}
+
+.courses-topbar__search-icon {
+    position: absolute;
+    top: 1.2rem;
+    left: 1rem;
+    color: #7d7e7f;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
